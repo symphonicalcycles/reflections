@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    By seeing differing lines one can see typos immediately
+    The differing lines can be compared regarding syntax
+    passages that have been added to code can be viewed seperately and gone through mistake-check
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    When I'm working o projects for long periods of time I can still see whether I had a feature in     some previous version
+    I can also identify sections of my project that I haven't worked on very much yet
+    If some newer version turns out unstable I still have the last stable version available
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    manually
+        +setting the size of my commits myself
+        +better to understand if every commit indicates one change/task
+        -I might forget
+        
+    automatically
+        +I can't forget
+        -commits might not be understandable/searchable
+        
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Many projects will consist of different files since different file-types can be linked to each
+    other in many projects. So it's only reasonable to save them in a big "repository"
+    
+How can you use the commands git log and git diff to view the history of files?
+
+    git log --stat shows me all commits with some change-indicators on them e.g. deleted and added
+    lines of code
+    with git diff I can see all changes between two specific commits giving me the possibility to       look for errors directly
+    
+How might using version control make you more confident to make changes that could break something?
+
+    Since I know that I can bring back the code as it was before I'd be more confident to make
+    changes that might break something
+    
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    version-ctrl
