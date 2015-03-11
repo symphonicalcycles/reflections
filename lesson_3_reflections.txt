@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  I could do so if I wanted to work on my project from different computers or want to collaborate on something with.
+  
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+  It's better to keep publib repos and the data on my computer seperate because if I want to work on something on my machine it would be confusing to have updates getting pulled atomatically.
